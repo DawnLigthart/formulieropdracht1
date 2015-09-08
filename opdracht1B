@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <section>
+        <h1>Aanmelden</h1>
+            <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+lopen de studenten stage, in het tweede en afstudeerjaar. </p>
+                <em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+Amsterdam.</em>
+    </section>
+
+        <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+Voor vragen of opmerkingen kunt u <a href="">contact</a> met ons op.</p>
+
+    <form>
+        <label for="naam">Naam:</label>
+          <input type="text" name="naam" value="">
+
+        <label for="bedrijf">Bedrijf:</label>
+          <input type="text" name="bedrijf" value="">
+
+        <label for="adres">Adres:</label>
+            <input type="text" name="adres" value="">
+
+        <label for="postcode">Postcode:</label>
+          <input type="text" name="postcode" value="">
+
+        <label for="plaats">Plaats:</label>
+          <input type="text" name="plaats" value="">
+
+        <label for="telefoon">Telefoon:</label>
+          <input type="text" name="telefoon" value="">
+
+        <label for="email">Email:</label>
+          <input type="text" name="email" value="">
+    </form>
+
+    <form>
+        <label for="aanmelden">Ik wil mij aanmelden:</label>
+  <input type="radio" name="project" value="">Voor een project
+  <input type="radio" name="stagebedrijf" value="">Als stagebedrijf
+    </form>
+
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Stage</th>
+        </tr>
+        <tr>
+            <td>1.Titel</td>
+            <td>Geschikt voor:</td>
+        </tr>
+        <tr>
+            <td>2.Opdrachtomschrijving</td>
+            <td>tweedejaars studenten</td>
+        </tr>
+        <tr>
+            <td>3.Doelgroepomschrijving</td>
+            <td>afstudeer studenten</td>
+        </tr>
+        <tr>
+            <td>4.Doelstelling/ intentie van het project</td>
+            <td>onbekend</td>
+        </tr>
+        <tr>
+            <td>5.Looptijd</td>
+        </tr>
+        <tr>
+            <td>6.Deadline</td>
+        </tr>
+
+<!-- tweede deel tabel -->
+        <tr>
+            <td>Geschikt voor</td>
+            <td>1. Hoelang is de stage?</td>
+        </tr>
+        <tr>
+            <td>1. eerstejaars studenten</td>
+            <td>- 10 weken</td>
+        </tr>
+        <tr>
+            <td>2. tweedejaars studenten</td>
+            <td>- 20 weken</td>
+        </tr>
+        <tr>
+            <td>3. derdejaars studenten</td>
+            <td>2. Begin datum</td>
+        </tr>
+        <tr>
+            <td>4. afstudeer studenten</td>
+        </tr>
+<!-- derde deel tabel -->
+        <tr>
+            <td></td>
+            <td>Beschrijving werkzaamheden:</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>1. Beschrijving stagewerkzaamheden</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Beschrijving stagebedrijf</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>1. Bedrijfsnaam</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>2. Adres</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>3. Postcode</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>4. Plaats</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>5. Sector</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>6. Core Business</td>
+        </tr>
+<!-- vierde deel tabel -->
+        <tr>
+            <td>Opmerkingen</td>
+            <td>Opmerkingen</td>
+        </tr>
+    </table>
+
+
+
+</body>
+</html>
