@@ -19,32 +19,41 @@ Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
 Voor vragen of opmerkingen kunt u <a href="">contact</a> met ons op.</p>
 
     <form>
+       <fieldset>
+           <legend>Contactgegevens</legend>
         <label for="naam">Naam:</label>
           <input type="text" name="naam" value="">
 
         <label for="bedrijf">Bedrijf:</label>
-          <input type="text" name="bedrijf" value="">
+          <input id ="bedrijf" type="text" name="bedrijf" value="">
 
         <label for="adres">Adres:</label>
-            <input type="text" name="adres" value="">
+            <input id ="adres"type="text" name="adres" value="">
 
         <label for="postcode">Postcode:</label>
-          <input type="text" name="postcode" value="">
+          <input id ="postcode" type="text" name="postcode" value="">
 
         <label for="plaats">Plaats:</label>
-          <input type="text" name="plaats" value="">
+          <input id ="plaats" type="text" name="plaats" value="">
 
         <label for="telefoon">Telefoon:</label>
-          <input type="text" name="telefoon" value="">
+          <input id ="telefoon" type="text" name="telefoon" value="">
 
         <label for="email">Email:</label>
-          <input type="text" name="email" value="">
+          <input id ="email"type="text" name="email" value="">
+        </fieldset>
     </form>
 
     <form>
-        <label for="aanmelden">Ik wil mij aanmelden:</label>
+      <fieldset>
+       <legend>Il wil mij aanmelden</legend>
+           <label>
   <input type="radio" name="project" value="">Voor een project
+            </label>
+            <label>
   <input type="radio" name="stagebedrijf" value="">Als stagebedrijf
+            </label>
+        </fieldset>
     </form>
 
     <table>
@@ -70,9 +79,11 @@ Voor vragen of opmerkingen kunt u <a href="">contact</a> met ons op.</p>
         </tr>
         <tr>
             <td>5.Looptijd</td>
+            <td></td>
         </tr>
         <tr>
             <td>6.Deadline</td>
+            <td></td>
         </tr>
 
 <!-- tweede deel tabel -->
